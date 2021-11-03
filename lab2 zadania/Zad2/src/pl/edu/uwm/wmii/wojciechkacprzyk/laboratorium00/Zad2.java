@@ -61,9 +61,9 @@ import java.util.Scanner;
 //    System.out.print("\nWpisz "+ i +" liczbe: ");
 //    x = scan.nextInt();
 //
-//    for(int j=0;j<=x;j++)
+//    for(int j=0;j<x;j++)
 //    {
-//        if(j*j==x & j%2==0)kw+=1;
+//        if(math.sqrt(x)==x & j%2==0)kw+=1; //dodac math.sqrt 
 //    }
 // }
 // System.out.print("Ilość liczb będących kwadratami liczby parzystej to: "+kw);
@@ -81,13 +81,13 @@ import java.util.Scanner;
 //    System.out.print("Wpisz n: ");
 //    int n = scan.nextInt();
 //    int x;
-//    int num=0;
+//    
 //        for(int i =1;i <= n;i++)
 //        {
 //        System.out.print("\nWpisz "+ i +" liczbe: ");
 //        x = scan.nextInt();
 //        num+=1;
-//        if(x%2==0 & num%2!=0)wynik+=1;
+//        if(x%2==0 & i%2!=0)wynik+=1; //zmienione num usuniete 
 //        }
 //    System.out.print("Ilość liczb o nieparzystym numerze, które są parzyste to: "+wynik);
 //    }
